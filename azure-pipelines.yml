@@ -16,5 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    npm install webpack --save-dev
     npm install
+    npm run build
   displayName: 'npm install and build'
